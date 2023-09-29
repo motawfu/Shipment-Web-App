@@ -1,0 +1,45 @@
+body {
+    background-image: url("/static/builtin/home.jpg");
+    background-size: cover;
+  }
+  p {
+    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .trashb{
+    position: right;
+    top: 3px;
+    right:3px;
+    width: 60px;
+  }
+  .duedate{
+    color:white;
+    height: 40px;
+    width: 40px;
+    padding-right: 5px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: lightblue;
+    opacity: 0.3;
+  }
+
+
+ .list-group-item{
+  background-color: rgba(228, 227, 226, 0.998);
+  border-radius: 10px;
+  margin-bottom:10px;
+  }
+
+
+.level{
+  width:100px;
+  margin-right:16px;
+  margin-left:16px;
+  border-radius: 10px;
+  background-color: rgba(201, 225, 231, 0.3);
+}
+
+.bts{
+  padding:10px;
+  margin-right:16px
+}
